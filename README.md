@@ -9,17 +9,17 @@
   <img src="https://img.shields.io/badge/pySerial-20232A?style=for-the-badge" alt="pySerial" />
 </p>
 
-## 🇬🇧 Overview
+## Overview
 
 Ground station software written for a model satellite competition by team TOGAY. It receives telemetry over serial, plots it live, shows the satellite's attitude on a 3D model, marks GPS position on a map and logs every packet to CSV.
 
 **Quick start:** `pip install -r requirements.txt && python main.py`
 
-## 🇹🇷 Proje hakkında
+## Proje hakkında
 
 TOGAY takımının model uydu yarışması için geliştirdiği yer istasyonu arayüzü. Seri porttan gelen telemetri paketlerini ayrıştırır, canlı grafiklerde gösterir, uydunun duruşunu 3B model üzerinde canlandırır, GPS konumunu haritada işaretler ve tüm paketleri CSV dosyasına kaydeder.
 
-## ✨ Özellikler
+## Özellikler
 
 - Telemetri: paket no, uydu statüsü, hata kodu, basınç, yükseklik, iniş hızı, sıcaklık, pil gerilimi, GPS, pitch/roll/yaw
 - Altı canlı grafik (pyqtgraph)
@@ -28,7 +28,7 @@ TOGAY takımının model uydu yarışması için geliştirdiği yer istasyonu ar
 - Hata kodu göstergeleri ve taşıyıcı ayırma komutu
 - Her paketin `veri.csv` dosyasına kaydı
 
-## ⚙️ Kurulum ve çalıştırma
+## Kurulum ve çalıştırma
 
 ```bash
 python -m venv .venv
@@ -40,7 +40,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-## 📁 Dosya yapısı
+## Dosya yapısı
 
 ```text
 TOGAY_ModelUyduYerIstasyonuArayuz/
@@ -51,7 +51,7 @@ TOGAY_ModelUyduYerIstasyonuArayuz/
 └── veri.csv
 ```
 
-## 📝 Notlar
+## Notlar
 
 - `gui.py` Qt Designer çıktısıdır, `logo_rc.py` arayüzdeki logo kaynaklarını içerir.
 - `PyAudio` kurulumu için sistemde PortAudio gerekir (Ubuntu: `sudo apt install portaudio19-dev`).
