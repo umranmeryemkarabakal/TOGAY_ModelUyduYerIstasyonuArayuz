@@ -1,0 +1,13 @@
+PyQt5
+PyQtWebEngine
+pyqtgraph
+pyserial
+numpy
+numpy-stl
+vtk
+PyOpenGL
+folium
+opencv-python
+imutils
+PyAudio
+websockets
